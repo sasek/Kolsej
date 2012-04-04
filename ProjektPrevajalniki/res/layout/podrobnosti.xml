@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:weightSum="1">
+    <LinearLayout android:layout_weight="0.04" android:id="@+id/linearLayout7" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/icon" android:id="@+id/imageView1" android:layout_width="fill_parent" android:layout_height="match_parent"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Naslov: "/>
+
+        <TextView
+            android:id="@+id/txtNaslov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textColor="@color/Red"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Na sporedu od : "/>
+
+        <TextView
+            android:id="@+id/txtNapredvajanju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textColor="@color/Red"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dolžina: "/>
+
+        <TextView
+            android:id="@+id/txtDolzina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textColor="@color/Red"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scenarij: "/>
+
+        <TextView
+            android:id="@+id/txtScenarij"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textColor="@color/Red"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Režija: "/>
+
+        <TextView
+            android:id="@+id/txtRezija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textColor="@color/Red"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Igrajo: "/>
+
+        <TextView
+            android:id="@+id/txtIgrajo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Red"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_weight="0.04" android:layout_width="match_parent" android:id="@+id/linearLayout8">
+        <TextView android:layout_height="wrap_content" android:id="@+id/textImdb" android:layout_width="wrap_content" android:text="Ocena Imdb:" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+        <TextView android:layout_height="wrap_content" android:textColor="@color/Red" android:id="@+id/ocena" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+    </LinearLayout>
+    <TextView android:layout_weight="0.04" android:layout_height="wrap_content" android:id="@+id/txtOpis" android:layout_width="wrap_content" android:text="Ni opisa" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+
+</LinearLayout>
+  </ScrollView>
